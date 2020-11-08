@@ -5,6 +5,7 @@
 	  <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	   <link rel="stylesheet" href="css/bootstrap.min.css">
 	  <link href="css/slick.css" rel="stylesheet">
 	  <link href="css/slick-theme.css" rel="stylesheet"> 
 	  <link href="css/fonts/slick.svg"> 
@@ -13,22 +14,36 @@
 	  <link rel="stylesheet" href="css/style.css">
 	</head>
        <body>
-	    <div id="navbar-one">
-		   <nav>
-			 <img src="images/logo1.jpg" width="100px" height="100px">
-			  <ul>
-			   <li><a href="#" ><i class="fas fa-home" style="font-size: 20px; " ></i>Home</a></li>
-			    <li><a href="#" ><i class="fas fa-address-card"style="font-size: 20px;" ></i>About Us</a></li>
-			    <li><a href="#grid-container" ><i class="fas fa-id-card"style="font-size: 20px; color: " ></i>Contact US</a></li>
-			    <li> <a href="#"><i class="fa fa-fw fa-user"style="font-size: 20px; " ></i> Login</a></li>
-				  
-				  <li id="one"><a href="#" ><i class="fas fa-search"style="font-size: 20px; color: " ></i>Search</a></li>
-					  
-				  <li><a href="#"><i class="fas fa-shopping-cart"style="font-size: 20px; color:" ></i></a></li>
-			   </ul>
-			
-			</nav>
-		 </div>
+	      <nav class="navbar navbar-expand-lg fixed-top ">
+            <a class="navbar-brand" href="#"><img src="images/logo1.jpg" ></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-  controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+            </button>
+
+             <div class="collapse navbar-collapse" >
+                 <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                       <a class="nav-link" href="#"><i class="fas fa-home" ></i>Home <span class="sr-only">(curren</span></a>
+                    </li>
+                   <li class="nav-item">
+                       <a class="nav-link" href="#"><i class="fas fa-address-card"></i>About Us</a>
+                   </li>
+                  <li class="nav-item">
+                      <a class="nav-link " href="#" id="navbarDropdown" role="button"><i class="fas fa-id-card" ></i>Contact Us</a>
+                  </li>
+                 <li class="nav-item0">
+                     <a class="nav-link " href="#" ><i class="fas fa-shopping-cart"></i> cart </a>
+                 </li>
+			    <li class="nav-item1">
+                   <a class="nav-link " href="#"><i class="fas fa-user-alt"></i> </a>
+                </li>	
+               </ul>
+           <form class="form-inline ">
+             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+           </form>
+         </div>
+        </nav>
 		   
 		  <section class="slider-area " >
 			  <div><h2 >up to 20% OFF</h2> <img src="images/11.jpg" ></div> 
