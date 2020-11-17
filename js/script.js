@@ -10,8 +10,24 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+
 $('.slider-area').slick({
-Infinit: true,	
+	dots: true,
+	autoplay: true,
+	 infinite: true,
+  speed: 2000,
+  fade: true,
+  
+});
+$('.end').slick({
+	dots: true,
+	slidesToShow: 3,
+  slidesToScroll: 1,
+	autoPlay: true,
+});
+
+$('.mac-brand').slick({
+ Infinit: true,	
 dots: true,	
   centerMode: true,
  slidesToShow: 3,
@@ -19,18 +35,8 @@ dots: true,
   autoplay: true,
   autoplaySpeed: 2000,
 	 lazyLoad: 'ondemand',
-
-});
-
-
-$('.mac-brand').slick({
-  infinite: true,
-	centerMode: true,
-  slidesToShow: 3,
-  slidesToScroll: 3,
-  autoPlay: true,
-	autoplaySpeed: 2000,
-	 lazyLoad: 'ondemand',
+	
+	 
 	
 });
 $(document).ready(function(){
@@ -58,4 +64,13 @@ dots: true,
   autoplaySpeed: 2000,
 	 lazyLoad: 'ondemand',
 
+});
+$(document).ready(function(){
+	$(document).on("click",".fas",function(){
+		
+	
+		$(this).toggleClass("fav");
+	
+		
+	});
 });

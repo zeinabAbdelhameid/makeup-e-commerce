@@ -1,0 +1,432 @@
+body{
+	padding: 0;
+	margin: 0;
+	
+}
+/*navbar*/
+.navbar{
+	background-color:#d049afcf;
+	height: 100px;
+	 overflow: hidden;
+}
+.navbar img{
+	
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	margin-left: 30px;
+}
+.navbar-nav{
+	margin-left: 70px;
+	
+}
+.nav-item{
+	padding: 25px;
+}
+.form-inline{
+	margin-right: 100px;
+	
+	
+}
+.form-control{
+	 
+	border-radius: 50px;
+}
+.btn{
+	 
+	color: white;
+	border-color:white;
+	border-radius: 50px;
+}
+.btn:hover{
+	background-color: white;
+	color:#aa198d; 
+}
+.collapse i{
+	padding: 8px;
+} 
+.collapse a{
+	color: white;
+	 
+}
+.collapse a:hover{
+	color:black;
+}
+
+
+.nav-item0 a{
+	height: 50px;
+	margin-top: 25px;
+	border: 1px solid gray;
+	border-color: white;
+	border-radius: 70px;
+}
+.nav-item0 a:hover{
+	background-color: white;
+	color:#aa198d; 
+}
+.nav-item1 i{
+	margin-top: 25px;
+	margin-left: 20px;
+	border: 1px solid gray;
+	border-color: white;
+	border-radius: 50px;
+}
+.nav-item1 i:hover{
+	background-color: white;
+	color:#aa198d; 
+}
+
+.lip h2{
+	text-align: center;
+	color: hotpink;
+	margin-top: 120px;
+	font-size: 40px;
+	font-family:"Lobster", serif;
+}
+.lip-gloss{
+	
+	
+	width: 90%;
+	margin-left: 60px;
+}
+
+ .add{
+	width: 130px;
+	height: 40px;
+	background-color: hotpink;
+	border-color: palevioletred;
+	 cursor: pointer;
+	 color: black;
+	 font-size: 15px;
+	 border-radius:50px;
+	 margin-left: 70px;
+	 
+}
+.add:hover{
+	background-color: #fff;
+}
+h4{
+	padding-top: 15px;
+	margin-left: 120px;
+	color:black;
+}
+
+.found {
+	margin-top: -160px;
+}
+
+.found h2{
+	text-align: center;
+	color: hotpink;
+	margin-top: 20px;
+	font-size: 40px;
+	font-family:"Lobster", serif;
+}
+.conc-elar{
+	
+	width: 90%;
+	margin-left: 60px;
+}
+
+.found img{
+	margin-top: 10px;
+	margin-left: 60px;
+	
+}
+
+/*liner*/
+
+.eye-brow{
+	width: 90%;
+	margin-left: 80px;
+}
+
+.liner .priv-arrow{
+	font-size: 25px;
+	color: palevioletred;
+	cursor: pointer;
+	float:left;
+	margin-top: 90px;
+	margin-left: 140px;
+	
+}
+.liner .next-arrow{
+	position: absolute;
+	font-size: 25px;
+	color: palevioletred;
+	
+	cursor: pointer;
+	margin-left: 1200px;
+	margin-top: -540px;
+	
+	
+}
+.liner h2{
+	text-align: center;
+	color: palevioletred;
+	margin-top: 120px;
+	font-size: 40px;
+	font-family:"Lobster", serif;
+}
+/*lipstock*/
+.lip h2{
+	text-align: center;
+	color: orchid;
+	margin-top: -190px;
+	font-size: 40px;
+	font-family:"Lobster", serif;
+}
+.lip-gloss{
+	width: 90%;
+	margin-left: 80px;
+}
+.lip .priv-arrow{
+	font-size: 25px;
+	color: palevioletred;
+	cursor: pointer;
+	float:left;
+	margin-top: 90px;
+	
+}
+.lip .next-arrow{
+	position: absolute;
+	font-size: 25px;
+	color: palevioletred;
+	
+	cursor: pointer;
+	margin-left: 1100px;
+	margin-top: -540px;
+	
+	
+}
+/*eyeshadow*/
+.eye h2{
+	text-align: center;
+	color: plum;
+	margin-top: -190px;
+	font-size: 40px;
+	font-family:"Lobster", serif;
+}
+.eye-brow{
+	width: 90%;
+	margin-left: 80px;
+}
+.eye .priv-arrow{
+	font-size: 25px;
+	color: palevioletred;
+	cursor: pointer;
+	float:left;
+	margin-top: 90px;
+	
+}
+.eye .next-arrow{
+	position: absolute;
+	font-size: 25px;
+	color: palevioletred;
+	
+	cursor: pointer;
+	margin-left: 1100px;
+	margin-top: -540px;
+	
+	
+}
+/*foundation*/
+.found h2{
+	text-align: center;
+	color: palevioletred;
+	margin-top: -190px;
+	font-size: 40px;
+	font-family:"Lobster", serif;
+}
+.conc-elar{
+	width: 90%;
+	margin-left: 80px;
+}
+.found .priv-arrow{
+	font-size: 25px;
+	color: palevioletred;
+	cursor: pointer;
+	float:left;
+	margin-top: 90px;
+	
+}
+.found .next-arrow{
+	position: absolute;
+	font-size: 25px;
+	color: palevioletred;
+	
+	cursor: pointer;
+	margin-left: 1100px;
+	margin-top: -540px;
+	
+	
+}
+/*brushes*/
+.brushes h2{
+	text-align: center;
+	color: hotpink;
+	margin-top: -190px;
+	font-size: 40px;
+	font-family:"Lobster", serif;
+}
+.bro{
+	width: 90%;
+	margin-left: 80px;
+}
+.brushes .priv-arrow{
+	font-size: 25px;
+	color: palevioletred;
+	cursor: pointer;
+	float:left;
+	margin-top: 90px;
+	
+}
+.brushes .next-arrow{
+	position: absolute;
+	font-size: 25px;
+	color: palevioletred;
+	
+	cursor: pointer;
+	margin-left: 1100px;
+	margin-top: -540px;
+	
+	
+}
+/*highlet*/
+.highlet h2{
+	text-align: center;
+	color: deeppink;
+	margin-top: -190px;
+	font-size: 40px;
+	font-family:"Lobster", serif;
+}
+.powder{
+	width: 90%;
+	margin-left: 80px;
+}
+.highlet .priv-arrow{
+	font-size: 25px;
+	color: palevioletred;
+	cursor: pointer;
+	float:left;
+	margin-top: 90px;
+	
+}
+.highlet .next-arrow{
+	position: absolute;
+	font-size: 25px;
+	color: palevioletred;
+	
+	cursor: pointer;
+	margin-left: 1100px;
+	margin-top: -540px;
+	
+	
+}
+/* contacts */
+
+.footer{
+	
+	height: 354px;
+	opacity: 0.4;
+}
+.four{
+	
+	background-image:url(../images/super-deal.jpg);
+	margin-top: -130px;
+}
+
+#grid-container{
+	height: 300px;
+	display: grid;
+	background-color: #adc1d24a;
+	grid-template-columns: auto auto auto auto;
+	
+}
+#grid-container .grid-item1{
+	margin-top: 80px;
+	 margin-left: 55px;
+	
+
+}
+#grid-container .grid-item1 i{
+	
+	font-size: 40px;
+	color: black;
+}
+#grid-container .grid-item1 b{
+	font-family:"Lobster", serif;
+	font-size: 30px;
+	color: black;
+	padding: 10px;
+}
+#grid-container .grid-item1 h6{
+	font-size: 15px;
+	color: black;
+	margin-left: 40px;
+}
+#grid-container .grid-item2{
+	margin-top: 80px;
+	   
+
+}
+#grid-container .grid-item2 i{
+	
+	font-size: 40px;
+	color: black;
+}
+#grid-container .grid-item2 b{
+	font-family:"Lobster", serif;
+	font-size: 30px;
+	color: black;
+	padding: 10px;
+}
+#grid-container .grid-item2 h6{
+	font-size: 15px;
+	color: black;
+	margin-left: 40px;
+}
+#grid-container .grid-item3{
+	margin-top: 80px;
+	   
+
+}
+#grid-container .grid-item3 i{
+	
+	font-size: 40px;
+	color:  black;
+}
+#grid-container .grid-item3 b{
+	font-family:"Lobster", serif;
+	font-size: 30px;
+	color:  black;
+	padding: 10px;
+}
+#grid-container .grid-item3 h6{
+	font-size: 15px;
+	color:  black;
+	margin-left: 40px;
+}
+#grid-container .grid-item4{
+	margin-top: 80px;
+}
+#grid-container .grid-item4 i{
+	font-size: 40px;
+	color:  black;
+}
+#grid-container .grid-item4 b{
+	font-family:"Lobster", serif;
+	font-size: 30px;
+	color: black;
+	padding: 10px;
+}
+#mm{
+	font-size: 25px;
+}
+.fav{
+	color: red;
+}
+.star{
+	margin-left: 85px;
+}
