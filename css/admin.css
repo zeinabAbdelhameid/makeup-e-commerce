@@ -7,36 +7,36 @@ body{
 	position: relative;
 	
 }
-.wrapper .sidebar{
+#sidebar.active {
+    width: 80px;
+    text-align: center; 
+}
+.wrapper #sidebar{
 	position: fixed;
 	width: 200px;
 	height: 100%;
 	background:palevioletred;
 	padding: 30px 0px;
 }
-.wrapper .sidebar h2{
+.wrapper #sidebar h2{
 	color: white;
 	font-family:"Lobster",serif;
 	text-align: center;
 	margin-bottom: 30px;
 }
-.wrapper .sidebar ul li{
+.wrapper #sidebar ul li{
 	padding: 15px;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.1); ;
 	border-top: 1px solid rgba(255, 255, 255, 0.1); ;
 }
-.wrapper .sidebar ul li i{
-	padding: 8px;
-}
-.wrapper .sidebar ul li a{
+
+.wrapper #sidebar ul li a{
 	font-size: 20px;
 	color: #fff;
 	text-decoration: none;
 	cursor: pointer;
 }
-.wrapper .sidebar ul li a .fa{
-	
-}
+
 .wrapper .main-container{
 	width: 100%;
 	margin-left: 200px;
@@ -53,4 +53,20 @@ body{
 	font-size: 25px;
 	margin-left: 15px;
 	text-align: justify;
+}
+#sidebar.active ul.components li {
+    font-size: 14px; 
+}
+
+ 
+
+#sidebar.active ul.components li a {
+    padding: 10px 0; 
+}
+
+ 
+
+#sidebar.active ul.components li a i {
+  display: block;
+  font-size: 24px; 
 }
