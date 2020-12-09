@@ -1,0 +1,198 @@
+body{
+	padding: 0;
+	margin: 0;
+	
+}
+/*navbar*/
+.navbar{
+	background-color:#d049afcf;
+	height: 100px;
+	 overflow: hidden;
+}
+.navbar img{
+	
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	margin-left: 30px;
+}
+.navbar-nav{
+	margin-left: 70px;
+	
+}
+.nav-item{
+	padding: 25px;
+}
+.form-inline{
+	margin-right: 100px;
+	
+	
+}
+.form-control{
+	 
+	border-radius: 50px;
+}
+.btn{
+	 
+	color: white;
+	border-color:white;
+	border-radius: 50px;
+}
+.btn:hover{
+	background-color: white;
+	color:#aa198d; 
+}
+.collapse i{
+	padding: 8px;
+} 
+.collapse a{
+	color: white;
+	 
+}
+.collapse a:hover{
+	color:black;
+}
+
+
+.nav-item0 a{
+	height: 50px;
+	margin-top: 25px;
+	border: 1px solid gray;
+	border-color: white;
+	border-radius: 70px;
+}
+.nav-item0 a:hover{
+	background-color: white;
+	color:#aa198d; 
+}
+.nav-item1 i{
+	margin-top: 25px;
+	margin-left: 20px;
+	border: 1px solid gray;
+	border-color: white;
+	border-radius: 50px;
+}
+.nav-item1 i:hover{
+	background-color: white;
+	color:#aa198d; 
+}
+/*about*/
+#about{
+	margin-top: 180px;
+}
+#about h2{
+	text-align: center;
+	font-family:"Lobster", serif;
+	color: palevioletred;
+
+}
+#about p{
+	padding: 10px 10px 0 10px;
+}
+.one{
+	margin-left: 200px;
+
+}
+.two{
+	margin-left: 120px;
+
+}
+/* contacts */
+
+.footer{
+	
+	height: 350px;
+	opacity: 0.4;
+}
+.four{
+	margin-top: 60px;
+	background-image:url(../images/super-deal.jpg);
+}
+
+#grid-container{
+	height: 350px;
+	display: grid;
+	background-color: #e83e8c66;
+	grid-template-columns: auto auto auto auto;
+	margin-top: 10px;
+}
+#grid-container .grid-item1{
+	margin-top: 80px;
+	    margin-left: 55px;
+
+}
+#grid-container .grid-item1 i{
+	
+	font-size: 40px;
+	color: black;
+}
+#grid-container .grid-item1 b{
+	font-family:"Lobster", serif;
+	font-size: 30px;
+	color: black;
+	padding: 10px;
+}
+#grid-container .grid-item1 h6{
+	font-size: 15px;
+	color: black;
+	margin-left: 40px;
+}
+#grid-container .grid-item2{
+	margin-top: 80px;
+	   
+
+}
+#grid-container .grid-item2 i{
+	
+	font-size: 40px;
+	color: black;
+}
+#grid-container .grid-item2 b{
+	font-family:"Lobster", serif;
+	font-size: 30px;
+	color: black;
+	padding: 10px;
+}
+#grid-container .grid-item2 h6{
+	font-size: 15px;
+	color: black;
+	margin-left: 40px;
+}
+#grid-container .grid-item3{
+	margin-top: 80px;
+	   
+
+}
+#grid-container .grid-item3 i{
+	
+	font-size: 40px;
+	color:  black;
+}
+#grid-container .grid-item3 b{
+	font-family:"Lobster", serif;
+	font-size: 30px;
+	color:  black;
+	padding: 10px;
+}
+#grid-container .grid-item3 h6{
+	font-size: 15px;
+	color:  black;
+	margin-left: 40px;
+}
+#grid-container .grid-item4{
+	margin-top: 80px;
+}
+#grid-container .grid-item4 i{
+	font-size: 40px;
+	color:  black;
+}
+#grid-container .grid-item4 b{
+	font-family:"Lobster", serif;
+	font-size: 30px;
+	color: black;
+	padding: 10px;
+}
+
+.fav{
+	color: red;
+}

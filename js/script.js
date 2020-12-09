@@ -7,7 +7,7 @@ $('.video').slick({
   speed: 2000,
   fade: true,
    prevArrow: ' ',
-  nextArrow: ' ',	
+  nextArrow: '',	
 });
 $('.end').slick({
 	dots: true,
